@@ -5,6 +5,8 @@
   --main-font-weight: 400; /* Основной текст */
   --title-font-weight: 785; /* Заголовки */
   --label-stroke-color: #fff;
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
   /* Множественный градиент */
   --background-image:
     repeating-linear-gradient(
@@ -19,8 +21,9 @@
     ),
     linear-gradient(
       to bottom,
-      #e7e7e7,
+      #e7e7e7 0.01%,
       #1a1a1a
     );
   --content-width: clamp(320px, 100%, 700px);
+  --button-text-color: #fff;
 }
