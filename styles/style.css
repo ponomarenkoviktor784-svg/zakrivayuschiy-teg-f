@@ -40,6 +40,12 @@
   font-weight: 400;
 }
 
+/* Общий блок. */
+.header__logo,
+.header__title {
+  text-transform: uppercase;
+}
+
 .header__title {
   margin-block-start: 20px;
   font-family: var(--accent-font-family), fantasy;
@@ -157,7 +163,8 @@
   flex-direction: column;
   gap: 25px;
   font-size: 18px;
-  line-height: 21px;
+  /* Межстрочный интервал масштабируется со шрифтом и при 18px составляет около 21px. */
+  line-height: 1.1667;
   font-variation-settings: 'wght' var(--main-font-weight);
 }
 
